@@ -52,3 +52,88 @@ let age = 30
  let color = 'online' === 'offline' ? 'red' : 'green';
  console.log(status)
  console.log(color)
+let colors = ['red', 'orange', 'yellow', 'green', 
+'blue', 'ingigo', 'violet'];
+
+// ask laura why line 60 isnt working /////but at fixed that shit!!!
+let fruits = [ 'apple', 'banana' ];
+let veggies = [ 'aspargus', 'brussel sprouts' ];
+let meat = ['steak', 'chicken breast' ];
+
+console.log(fruits.concat(meat));
+console.log(meat.concat(fruits));
+
+let allFood = fruits.concat(veggies, meat);
+
+let ingredients =[
+    'water',
+    'corn starch',
+    'flour',
+    'cheese',
+    'brown sugar',
+    'shrimp',
+    'eel',
+    'butter'
+];
+
+if (ingredients.includes('flour')) {
+    console.log('I AM GLUTEN FREE, I CANNOT EAT THAT');
+}
+let animals = ['shark', 'salmon', 'whale','whale'];
+console.log(animals);
+
+const fitBitData = {
+    totalSteps       : 308727,
+    totalMiles       : 211.7,
+    avgCalorieBurn   : 5755,
+    workoutsThisWeek : '5 of 7',
+    avgGoodSleep     : '2:13' 
+};
+console.log(fitBitData);
+
+const palette = {
+    red : ' #eb4d4b',
+    yellow : ' #f9ca24',
+    blue : ' #30336b'
+};
+console.log(palette);
+//loop
+for(let i = 2; i <= 10; i+=3){
+    console.log('hello:', i);
+}
+// DON'T RUN THIS!
+//for(let i = 1; !== 20; i += 2) {
+ //   console.log(i);
+ // if you want to stop this from running forever but a break;
+ // your able to use a boolen and while(true)
+//}
+let friends = (10);
+friends **= 2
+console.log(friends)
+
+for (let i = 0; i <= 5; i++) {
+    console.log(i)
+}
+let j = 0;
+while (j <= 5) {
+    console.log(j);
+    j++;
+}
+const target = Math.floor(Math.random() * 10);
+let guess = Math.floor(Math.random() * 10);
+while (guess !== target) {
+    console.log('Target: ${target} Guess: ${guess}');
+    guess = Math.floor(Math.random() * 10);
+}
+console.log('Target: ${target} Guess: ${guess}');
+console.log('CONGRATS YOU WIN!!');
+
+// while(some condition)
+//in the loop, update or attempt to make that condition false
+
+let subreddits = [ 'soccer', 'popheads', 'cringe', 'books' ]
+;
+for (let sub of subreddits) {
+    console.log(sub);
+}
+ 
