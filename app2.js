@@ -1,7 +1,7 @@
 //if (1 === 1){
 //  console.log("It's True!");
 //}
-//console.log("3 + 4")
+// console.log("3 + 4")
 
 // Performance Review
 // 3 - superstar
@@ -98,7 +98,7 @@ const palette = {
 };
 console.log(palette);
 //loop
-for(let i = 2; i <= 10; i+=3){
+for(let i = 1; i <= 10; i+=2){
     console.log('hello:', i);
 }
 // DON'T RUN THIS!
@@ -136,4 +136,17 @@ let subreddits = [ 'soccer', 'popheads', 'cringe', 'books' ]
 for (let sub of subreddits) {
     console.log(sub);
 }
- 
+
+// let jokes = ['knock knock', 'whos there', 'orange', 'orange who?'];
+let jokes = 'knock knock. whos there? banana. banana who?';
+// for (let i = 0; i < jokes.length; i++) {
+//     console.log(jokes[i])
+// }
+
+// console.log("outside of for loop" + i)
+
+let l = 1;
+while (l <= 5){
+    console.log(jokes);
+    l++;
+}
