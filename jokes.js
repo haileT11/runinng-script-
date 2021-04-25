@@ -22,7 +22,7 @@ console.log("\n\n\n\n end of while loop. \n\n\n\n")
 // for loop 
 // -------------------------
 
-console.log("\n\n\n\n start for loop. \n\n\n\n") 
+console.log("\n\n\n\n start 'for' loop. \n\n\n\n") 
 
 for (let i = 1; i <= 5; i++) {
     console.log(i)
@@ -30,4 +30,8 @@ for (let i = 1; i <= 5; i++) {
     if (i === 4) break;
 }
 
+console.log("\n\n\n\n end 'for' loop. \n\n\n\n") 
+
 console.log("\n\norange. orange who? orange you glad I didn't say banana.")
+
+
