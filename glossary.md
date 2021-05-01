@@ -66,3 +66,50 @@ Objects, including instances of data types, can have methods which perform actio
 
 We can access properties and methods by using the ., dot operator.
 Built-in objects, including Math, are collections of methods and properties that JavaScript provides.
+
+Here is a list of some handy comparison operators and their syntax:
+
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is not equal to: !==
+
+if.....else
+let hungerLevel = 7;
+if (hungerLevel > 7){
+  console.log('Time to eat!');
+} else {
+    console.log('We can eat later!');
+};
+
+logical operators
+Working with conditionals means that we will be using booleans, true or false values. In JavaScript, there are operators that work with boolean values known as logical operators. We can use logical operators to add more sophisticated logic to our conditionals. There are three logical operators:
+
+the and operator (&&)
+if (stopLight === 'green' && pedestrians === 0) {
+  console.log('Go!');
+} else {
+  console.log('Stop');
+}
+the or operator (||)
+if (day === 'Saturday' || day === 'Sunday') {
+  console.log('Enjoy the weekend!');
+} else {
+  console.log('Do some work.');
+}
+
+the not operator, otherwise known as the bang operator (!)
+let excited = true;
+console.log(!excited); // Prints false
+ 
+let sleepy = false;
+console.log(!sleepy); // Prints true
+
+When we use the && operator, we are checking that two things are true:
+When using the && operator, both conditions must evaluate to true for the entire condition to evaluate to true and execute. Otherwise, if either condition is false, the && condition will evaluate to false and the else block will execute.
+
+If we only care about either condition being true, we can use the || operator:
+
+Truthy and Falsy
