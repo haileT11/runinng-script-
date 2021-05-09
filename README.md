@@ -1,42 +1,33 @@
-JavaScript
+# JavaScript
 
-is a programming language that powers the dynamic behavior on most websites. Alongside HTML and CSS, it is a core technology that makes the web run.
+1. javascript
+    - is a programming language that powers the dynamic behavior on most websites. Alongside HTML and CSS, it is a core technology that makes the web run.
+1. variable
+1. function
+1. object
+    - Object: Collections of related data.
+1. array
+1. interpolate
+1. string interpolation
+1. String
+    - String: Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes: ' ... ' or double quotes " ... ". Though we prefer single quotes. Some people like to think of string as a fancy word for text.
+1. const
+1. let
+1. scope
+1. function deinition
+1. function envocation
+1. console.log()
+    - method is used to log or print messages to the console. it can be used to print objects and other info.
 
-variable
+    ```javascript
+        console.log('Hi there!');
+    ```
 
-function
-
-object
-Object: Collections of related data.
-
-array
-
-interpolate
-string interpolation
-
-String
-String: Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes: ' ... ' or double quotes " ... ". Though we prefer single quotes. Some people like to think of string as a fancy word for text.
-
-const
-
-let
-
-scope
-
-function deinition
-
-function envocation
-
-console.log()
- method is used to log or print messages to the console. it can be used to print objects and other info.
-//console.log('Hi there!');
-
-libraries
-contain methoods that can be called by appending the library name with a period.,the method name, and set of parentheses.
-// Math is the library  math.random()
-
-Numbers
-numbers are a primitive adat type. they incllude the set of all integers and floating point numbers.
+1. libraries
+    - contain methoods that can be called by appending the library name with a period.,the method name, and set of parentheses.
+    - "Math" is an example of a library `math.random()`
+1. Numbers
+    - numbers are a primitive adat type. they incllude the set of all integers and floating point numbers.
 
 .length
 the .length property of a string returns the number of characters that make up the string.
@@ -75,23 +66,31 @@ Greater than or equal to: >=
 Is equal to: ===
 Is not equal to: !==
 
-if.....else
-let hungerLevel = 7;
-if (hungerLevel > 7){
-  console.log('Time to eat!');
-} else {
-    console.log('We can eat later!');
-};
+## if.....else
 
-logical operators
+```javascript
+    let hungerLevel = 7;
+    if (hungerLevel > 7){
+    console.log('Time to eat!');
+    } else {
+        console.log('We can eat later!');
+    };
+```
+
+## logical operators
+
 Working with conditionals means that we will be using booleans, true or false values. In JavaScript, there are operators that work with boolean values known as logical operators. We can use logical operators to add more sophisticated logic to our conditionals. There are three logical operators:
 
-the and operator (&&)
-if (stopLight === 'green' && pedestrians === 0) {
-  console.log('Go!');
-} else {
-  console.log('Stop');
-}
+the `and` operator (`&&`)
+
+```javascript
+    if (stopLight === 'green' && pedestrians === 0) {
+    console.log('Go!');
+    } else {
+    console.log('Stop');
+    }
+```
+
 the or operator (||)
 if (day === 'Saturday' || day === 'Sunday') {
   console.log('Enjoy the weekend!');
